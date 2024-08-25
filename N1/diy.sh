@@ -30,11 +30,11 @@ git_sparse_clone master https://github.com/kiddin9/openwrt-packages luci-app-lin
 echo "
 # 插件
 #CONFIG_PACKAGE_luci-theme-design=y
-CONFIG_PACKAGE_luci-app-mosdns=y
-CONFIG_PACKAGE_luci-app-pushbot=y
-CONFIG_PACKAGE_luci-app-aliddns=y
-CONFIG_PACKAGE_luci-app-linkease=y
-#CONFIG_PACKAGE_luci-app-turboacc=y
+CONFIG_PACKAGE_luci-app-mosdns=n
+CONFIG_PACKAGE_luci-app-pushbot=n
+CONFIG_PACKAGE_luci-app-aliddns=n
+CONFIG_PACKAGE_luci-app-linkease=n
+#CONFIG_PACKAGE_luci-app-turboacc=n
 " >> .config
 
 # 修改默认IP
